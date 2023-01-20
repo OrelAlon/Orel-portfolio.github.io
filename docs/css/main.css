@@ -381,3 +381,36 @@ main#home h1 {
 .transform:active {
   transform: translateY(6px);
 }
+.item:hover .text-on-hover {
+  display: block;
+}
+
+.text-on-hover {
+  display: none;
+  text-align: center;
+  animation: slide-in-top 1s ease-in-out, color-change 1s ease-in-out;
+  /* font-weight: bold; */
+}
+
+@keyframes slide-in-top {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    color: #f9004d;
+  }
+  50% {
+    color: #f9004d;
+  }
+  100% {
+    color: white;
+  }
+}
