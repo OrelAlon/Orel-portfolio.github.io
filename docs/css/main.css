@@ -240,10 +240,10 @@ main#home h1 {
 
 .boxes {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  flex-wrap: nowrap;
   align-items: center;
-  margin-top: 1rem;
+  flex-direction: column;
+  margin-top: 3rem;
 }
 .boxes div {
   font-size: 2rem;
