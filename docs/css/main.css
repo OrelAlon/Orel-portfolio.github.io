@@ -380,9 +380,10 @@ main#home h1 {
   width: 150px;
   cursor: pointer;
   border: solid 4px #f9004d;
-  border-radius: 50%;
+  border-radius: 50%; /* Apply border radius to image only */
   padding: 25px;
 }
+
 .more-btn:hover {
   background: #f9004d;
 }
